@@ -22,7 +22,7 @@ class Snapvizu2(object):
 config = {
     '/' : {
         'tools.staticdir.on' : True,
-        'tools.staticdir.dir' : os.path.join(os.path.dirname(__file__), 'static'),
+        'tools.staticdir.dir' : os.path.abspath(os.path.join(os.path.dirname(__file__), 'static')),
         'tools.staticdir.index': 'index.html'
     },
     '/snaps' : {
