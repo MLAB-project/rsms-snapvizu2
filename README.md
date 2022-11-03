@@ -1,4 +1,10 @@
-# snapvizu2
+# snapvizu2 - RSMS02 trigger snapshot visualizer
+
+![Snapvizu2 with blank_signal](/doc/img/Snapvizu2_blank_signal.png)
+
+Signal snapshot visualizer for [RSMS02 VLF lightning monitoring station](https://github.com/UniversalScientificTechnologies/RSMS02).
+
+## Usage
 
 To run:
 
